@@ -46,19 +46,46 @@ body {
 
 }
 
+.card article {
+    width:20%;
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 80%;
+    display: block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    flex-wrap: wrap;
+}
+
+.bottom-right sunset img {
+    position:absolute;
+    bottom: 8px;
+    right: 16px
+}
+
 
 #horiseon-refractor-repository img {
     width: 80%;
     margin-bottom: 40px;
-    padding: 50px;
+    padding: 0px;
     height: 400px;
-    justify-content: flex-start;
+    margin-right: -24px;
+    
+    
 }
 
-#Work img {
+#prework-study-guide img {
     width: 40%;
     margin-bottom: 20px;
-    padding: 25px;
-    height: 250px;
-    justify-content: flex-end;
+    padding: 0px;
+    height: 100px;    
+}
+
+#footer {
+    display: inline-block;
+    justify-content: space-between;
+    width: 80%;
 }

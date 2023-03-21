@@ -87,23 +87,23 @@ a {
 }
 
 #horiseon-refractor-repository img {
-    width: 80%;
+    display: block;
+    max-height: 400px;
+    float: right;
     padding: 0px;
-    height: 500px;
-    margin: 0 24 0 0
+    width: 80%;
+    flex-basis: auto;
+
 }
+
 
 img { 
     display: block;
-    flex-wrap: wrap;
     max-height: 200px;
-    float: inline-end;
+    float: right;
     padding: 0px;
     width: 40%;
-}
-
-#flex-container img {
-    display: flex;
+    flex-basis:auto
 }
 
 .footer {

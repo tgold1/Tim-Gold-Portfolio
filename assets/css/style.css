@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -46,46 +46,88 @@ body {
 
 }
 
-.card article {
-    width:20%;
+.section card article {
+    width: 20%;
     display: block;
     flex-wrap: wrap;
 
 }
 
-.card {
+.section card {
     width: 80%;
     display: block;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     flex-wrap: wrap;
+}
+
+p {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    justify-content: space-between;
+}
+
+a {
+    width: 20%;
 }
 
 .bottom-right sunset img {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     right: 16px
+}
+
+.card About Me {
+    width: 20%;
+    display: block;
+    flex-wrap: wrap;
+    height: 100 px;
 }
 
 
 #horiseon-refractor-repository img {
     width: 80%;
-    margin-bottom: 40px;
     padding: 0px;
     height: 400px;
-    margin-right: -24px;
-    
-    
+    margin-right: 0px;
+
+
 }
 
-#prework-study-guide img {
+#prework-study-guide img { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
     width: 40%;
-    margin-bottom: 20px;
-    padding: 0px;
-    height: 100px;    
 }
 
-#footer {
-    display: inline-block;
-    justify-content: space-between;
+.footer {
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    color: aqua;
+}
+
+.footer f1 {
+    display: block;
+    font-size: 48px;
+    flex-wrap: wrap;
+}
+
+.footer nav {
+    padding-top: 0px;
+    margin-top: 20px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: block;
+}
+.footer nav ul {
+    display: block;
+    justify-content: center;
     width: 80%;
 }

@@ -46,14 +46,14 @@ body {
 
 }
 
-.section card article {
+#section card header {
     width: 20%;
     display: block;
     flex-wrap: wrap;
 
 }
 
-.section card {
+#section card {
     width: 80%;
     display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -79,30 +79,31 @@ a {
     right: 16px
 }
 
-.card About Me {
+#header About Me {
     width: 20%;
     display: block;
     flex-wrap: wrap;
     height: 100 px;
 }
 
-
 #horiseon-refractor-repository img {
     width: 80%;
     padding: 0px;
-    height: 400px;
-    margin-right: 0px;
-
-
+    height: 500px;
+    margin: 0 24 0 0
 }
 
-#prework-study-guide img { 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
+img { 
+    display: block;
+    flex-wrap: wrap;
+    max-height: 200px;
+    float: inline-end;
+    padding: 0px;
     width: 40%;
+}
+
+#flex-container img {
+    display: flex;
 }
 
 .footer {
@@ -116,6 +117,8 @@ a {
     display: block;
     font-size: 48px;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 20%;
 }
 
 .footer nav {
@@ -123,11 +126,11 @@ a {
     margin-top: 20px;   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    justify-content: center;
+    justify-content: flex-end;
     display: block;
 }
 .footer nav ul {
     display: block;
-    justify-content: center;
+    justify-content: flex-end;
     width: 80%;
 }

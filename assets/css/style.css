@@ -13,11 +13,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     color: aqua;
+    margin-top: 0px;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 .header nav {
@@ -40,7 +41,8 @@ body {
 
 .banner img {
     width: 100%;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     height: 200px;
     padding: 0px;
 
@@ -66,7 +68,9 @@ p {
     justify-content: flex-end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
-    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 0px;
+
 }
 
 a {
@@ -79,20 +83,23 @@ a {
     right: 16px
 }
 
-#header About Me {
+#aside  {
     width: 20%;
     display: block;
-    flex-wrap: wrap;
+    justify-content: right;
     height: 100 px;
 }
 
 #horiseon-refractor-repository img {
     display: block;
-    max-height: 400px;
+    max-height: 350px;
     float: right;
     padding: 0px;
     width: 80%;
     flex-basis: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 
 }
 
@@ -102,6 +109,8 @@ img {
     max-height: 200px;
     float: right;
     padding: 0px;
+    margin-bottom: 10px;
+    margin-left: 2px;
     width: 40%;
     flex-basis:auto
 }
@@ -116,21 +125,23 @@ img {
 .footer f1 {
     display: block;
     font-size: 48px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     width: 20%;
 }
 
 .footer nav {
-    padding-top: 0px;
-    margin-top: 20px;   
+    padding-bottom: 0px;
+    margin-bottom: 0px;   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    justify-content: flex-end;
     display: block;
 }
 .footer nav ul {
     display: block;
-    justify-content: flex-end;
     width: 80%;
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        width: 100%;
+}
 }

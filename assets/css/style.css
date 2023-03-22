@@ -120,6 +120,7 @@ img {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     color: aqua;
+    clear: right;
 }
 
 .footer f1 {
@@ -137,9 +138,14 @@ img {
 }
 .footer nav ul {
     display: block;
+    text-align: right;
     width: 80%;
 }
 
+.footer nav ul li {
+    display: inline-block;
+    width: 20%
+}
 @media screen and (max-width: 576px) {
     nav {
         width: 100%;
